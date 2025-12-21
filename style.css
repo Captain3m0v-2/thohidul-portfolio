@@ -51,3 +51,96 @@ body {
 section {
     padding: 6rem 0;
 }
+/* Eye-catching Footer Animations */
+.footer-link {
+    transition: all 0.3s ease;
+    display: inline-block;
+    color: #adb5bd; /* Muted color */
+}
+.footer-link:hover {
+    color: #FF9900 !important; /* Gold on hover */
+    transform: translateX(5px);
+}
+.social-icon-footer {
+    transition: all 0.3s ease;
+    color: white;
+}
+.social-icon-footer:hover {
+    color: #FF9900 !important;
+    transform: translateY(-5px);
+}
+/* Publication Section Refinement */
+.bg-primary-soft {
+    background-color: rgba(0, 128, 128, 0.1); /* Soft Teal background */
+}
+
+.publication-card {
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    border-radius: 12px;
+}
+
+.publication-card:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 15px 30px rgba(0,0,0,0.1) !important;
+}
+
+.border-dashed {
+    border: 2px dashed #dee2e6 !important;
+    border-radius: 12px;
+}
+
+.ls-wide {
+    letter-spacing: 1px;
+}
+/* Skill Domain Card Hover Effect */
+.skill-domain-card {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+}
+
+.skill-domain-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 10px 30px rgba(0,0,0,0.1) !important;
+}
+
+.icon-box i {
+    transition: transform 0.5s ease;
+}
+
+.skill-domain-card:hover .icon-box i {
+    transform: rotateY(180deg);
+}
+
+.shadow-xs {
+    box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+}
+
+.ls-wide {
+    letter-spacing: 1px;
+}
+.footer-link {
+    color: rgba(255, 255, 255, 0.6);
+    transition: all 0.3s ease;
+    font-size: 0.9rem;
+}
+
+.footer-link:hover {
+    color: #FF9900 !important; /* Gold on hover */
+    padding-left: 5px;
+}
+
+.social-icon-footer {
+    opacity: 0.7;
+    transition: opacity 0.3s ease, transform 0.3s ease;
+    display: inline-block;
+}
+
+.social-icon-footer:hover {
+    opacity: 1;
+    color: #FF9900 !important;
+    transform: translateY(-3px);
+}
+
+.ls-wide {
+    letter-spacing: 1.5px;
+}
